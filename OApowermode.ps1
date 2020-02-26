@@ -1,4 +1,7 @@
 Import-Module -Name HPEOACmdlets
+#if you have a problems with HPEOACmdlets installation, try:
+#Install-PackageProvider Nuget –Force
+#Install-Module –Name PowerShellGet –Force
 #autorization
 $Cred = Get-Credential
 $oaipaddr="0"
